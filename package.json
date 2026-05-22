@@ -1,0 +1,14 @@
+{
+  "name": "target150",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Target150 — Live Better | Stem Cell Therapy & Longevity Treatments Thailand.",
+  "homepage": "https://www.target150.com",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "kxco-post-quantum": "^1.0.3"
+  }
+}
