@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/.well-known/target150-pq-pubkey",
+      "destination": "/api/well-known/target150-pq-pubkey"
+    }
+  ]
+}
