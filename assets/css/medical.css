@@ -1,0 +1,79 @@
+.medical-page {
+    padding: 75px;
+    text-align: center;
+}
+
+.medical-page h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    -webkit-text-stroke: 1px #027F00;
+    color: #027F00;
+    margin-bottom: 15px;
+}
+
+.medical-page h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.medical-page .intro {
+    max-width: 910px;
+    margin: 0 auto 50px auto;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.medical-cards {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    flex-wrap: wrap;
+}
+
+.medical-card {
+    flex: 1 1 400px;
+    max-width: 450px;
+    text-align: left;
+}
+
+.medical-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.medical-card strong {
+    font-weight: bold;
+    color: #027F00;
+}
+
+.medical-card p {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+@media (max-width: 768px){
+
+    .medical-page {
+        padding: 50px;
+        text-align: center;
+    }
+
+    .medical-page h1 {
+        font-size: 40px;
+    }
+    
+
+    .medical-card img {
+        width: 350px;
+        border-radius: 30px;
+        margin-bottom: 15px;
+    }
+
+    .medical-cards {
+        display: flex;
+        justify-content: center;
+        gap: 55px;
+        flex-wrap: wrap;
+    }
+}

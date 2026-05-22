@@ -1,0 +1,179 @@
+.hair-restoration-page {
+    padding: 80px 60px 40px 60px;
+    font-family: 'Arial', sans-serif;
+    background: #fff;
+}
+
+.hair-restoration-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-block {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.text-block h1 {
+    color: #027F00;
+    font-size: 50px;
+    font-weight: bolder;
+    -webkit-text-stroke: 1px #027F00;
+    margin-bottom: 75px;
+}
+
+.text-block p {
+    margin-bottom: 15px;
+    line-height: 1.7;
+    font-size: 14px;
+    width: 560px;
+}
+
+.image-block {
+    flex: 1;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image-block img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.image-block video {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.video-embed {
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+    border: none;
+}
+
+.customer-reviews {
+    margin: 80px auto;
+    padding: 0 100px;
+    text-align: center;
+}
+
+.customer-reviews h2 {
+    color: #027F00;
+    font-size: 45px;
+    font-weight: bolder;
+    -webkit-text-stroke: 1px #027F00;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.reviews-gallery {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.review-item img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.mobile {
+    display: block;
+  }
+.desktop {
+    display: none;
+  }
+
+  .mobile-break {
+    display: none;
+  }
+
+  /* แสดงเฉพาะเดสก์ท็อป */
+@media (min-width: 769px) {
+  .mobile {
+      display: none;
+    }
+  .desktop {
+      display: block;
+    }
+  
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hair-restoration-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hair-restoration-page {
+        padding: 0px 25px;
+    }
+
+    .text-block h1 {
+        font-size: 32px;
+        margin-bottom: 40px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .customer-reviews h2 {
+        font-size: 30px;
+        margin-bottom: 80px;
+        margin-left: 0px;
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    .text-block p {
+        width: 340px;
+        margin: 20px 0 0px 0;
+    }
+
+    .text-block {
+        padding-right: 0;
+    }
+
+    .image-block {
+        max-width: 100%;
+    }
+
+    .image-block img {
+        height: 170px;
+        width: 340px;
+        object-position: center 104%;
+    }
+    .review-item img {
+        width: 150px;
+        max-width: 250px;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+    .reviews-gallery {
+        gap: 25px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .mobile-break {
+        display: inline;
+    }
+    
+}
+
