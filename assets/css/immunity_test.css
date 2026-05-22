@@ -1,0 +1,70 @@
+.immunity-section {
+    padding: 60px 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    color: #027F00;
+    font-size: 50px;
+    font-weight: bolder;
+    -webkit-text-stroke: 1px #027F00;
+    margin-bottom: 60px;
+  }
+  
+  .content-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    align-items: center;
+  }
+  
+  .image {
+    flex: 1;
+    min-width: 300px;
+    text-align: right;
+  }
+  
+  .image img {
+    width: 520px;
+    height: 600px;
+    object-fit: cover;
+    object-position: 64% center;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .text {
+    flex: 1;
+    min-width: 300px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #333;
+  }
+  
+  .text p {
+    margin-bottom: 20px;
+  }
+
+  .text strong a {
+    color: #000;
+  }
+  
+  @media (max-width: 1024px) {
+    .content-row {
+      flex-direction: column;
+      gap: 25px;
+    }
+
+    .title {
+      font-size: 32px;
+    }
+  
+    .image img {
+      height: 500px;
+      width: 90%;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+  
